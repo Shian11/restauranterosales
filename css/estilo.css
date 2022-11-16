@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+   
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:RougeScript-Regular;
+    src: url(../font/RougeScript-Regular.ttf);
+    
+}
+.enlace{
+    position: absolute;
+    padding: 0px 40px;
+}
+.logo_restaurante{
+    height: 80px;
+}
+h1{
+    position: absolute;
+    padding: 0px 140px;
+    line-height: 80px;
+    font-family: cursive;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+
+nav{
+    background: #A4B107;
+    height: 80px;
+    width: 100%;
+}
+header{
+    position: fixed;
+    width: 100%;
+    list-style: none;
+}
+body{
+    font-family: arial, helveticas;
+    background:#E8E6E6; 
+}
+.menu{
+    list-style: none;
+    width: 100%;
+    margin: auto;
+}
+
+.menu li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    height: 80px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+nav ul li{
+    float: right;
+    display: inline-block;
+    text-align: center;
+    
+}
+nav ul li a:hover{
+    background: #82CD47;
+}
+section{
+    background: url(../img/fondo2.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh );
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+   scroll-margin-top: 80ex;
+}
+
+div{
+    scroll-margin-top:10ex;
+    height: 90vh;
+    width: 100%;
+    padding: 25px 40px;
+}
+#Nosotros{
+    display:flex;
+}
+.p_nosotros{
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 31px;
+    text-align: center;
+    font-family: cursive; ;
+    width: 50%;
+    background: #76F4B1;
+    border-radius: 20px;
+}
+.p_imagen1{
+    padding: 15px 20px;
+
+}
+.imagenes_nosotros{
+    height: 480px;
+    width: 330px;
+    border-radius: 20px;
+    border:4px solid #05A6A8;
+   
+}
+.menu1{
+     background:#FF881F ;
+     height: 60px;
+     text-align: center;
+     padding: 0px;
+     font-family: RougeScript-Regular;
+     font-size: 40px;
+}
+.menus{
+    background: #C4DFAA;
+    height: 420px;
+    border-radius: 30px;
+     margin-right: 10px;
+}
+#La_carta2{
+    display:flex;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+li{
+    list-style-type: '🔪';
+    padding-bottom: 3px;
+    text-align: left;
+}
+#Nosotros{
+background: url(../img/fondo.jpg)no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+#La_carta{
+background: url(../img/fondo3.jpg)no-repeat;
+background-size: cover;
+background-position: center center;
+}
+#Pedidos{
+    background: url(../img/fondo4.jpg)no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.titulo_pedidos{
+   background:#FF881F ;
+     height: 60px;
+     text-align: center;
+     padding: 0px;
+     font-family: cursive;
+     font-size: 40px;
+}
+.formulario_pedido{
+    font-family: cursive;
+    font-size: 22px;
+    padding: 2px 200px;
+    text-align: center;
+    color:#001666;
+    font-weight:800;
+}
+input{
+    width: 300px;
+    font-size: 18px;
+    padding: 2px;
+}
+select{
+    width: 150px;
+    font-size: 18px;
+    padding: 4px;
+    }
+option{
+    font-size: 18px;
+}
+#boton1{
+    font-size:24px;
+    border-radius: 10px;
+}
+
+footer div{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Contacto{
+    scroll-margin-top:10ex;
+    background: #005CBA;
+    height: 90vh;
+    width: 100%;
+}
+.logo_pie_pagina{
+    width: 70px;
+}
+.abajo_logo{
+    height: 100px;
+    display: flex;  /* poner de lado unagen y parrafo tambien div*/ 
+    align-items: center;
+    gap:10px;   /* separar imagen de parrafo*/ 
+}
+.abajonombre{
+    font-size: 20px;
+    font-family: cursive;
+    color: #FFFFFF;
+}
+.redes{
+    padding: 30px 0px 0px 500px;
+    height: 100px;
+}
+span{
+    font-size: 40px;
+}
+.fb{
+    background: #3345F7;
+    padding: 8px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+.tw{
+    background: #33B0F7;
+    padding: 8px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+.in{
+    background: #610496;
+    padding: 8px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+.yt{
+    background: #F73338;
+    padding: 8px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+.abajo1{
+    display: flex;
+    padding: 20px;
+    height: 150px;
+}
+.abajo2{
+    display: flex;
+   gap:40px;
+   height: 345px;
+}
+.abajo2 div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    height: 300px;
+    font-size: 18px;
+}
+.abajo2 div h2{
+    
+    color: white;
+    text-align: center;
+ 
+}
+.abajo2 div a{
+    color: #C2C2C2;
+    padding: 5px
+}
+th{
+   color: #C2C2C2;
+   padding: 5px;
+}
+.derechos{
+    padding: 18px;
+    display: flex;
+    background: #746514;
+    height: 60px;
+    color: white;
+    justify-content: space-between;
+    font-size: 18px;
+}
